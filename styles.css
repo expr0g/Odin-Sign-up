@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.divider {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plant-pic {
+    width: 40vw;
+    height: 100vh;
+}
+
+.left-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caption-text {
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 2vh;
+}
+
+.caption-text > a {
+    color: rgb(129, 166, 240);
+}
+
+.logo-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    bottom: 60vh;
+    font-size: 30px;
+}
+
+.logo-pic > img {
+    width: 30%;
+}
+
+.logo-and-cap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-part {
+    padding: 70px 70px;
+}
+
+.form-part > h3 {
+    margin-top: 150px;
+    font-size: 25px;
+}
+
+.form-div {
+    margin-top: 15px;
+}
+
+form > div {
+    margin-top: 10px;
+}
+
+.names-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+}
+
+.names-div > div > div > label {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.extras-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+}
+
+.extras-div > div > div > label {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.pwds-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+}
+
+.pwds-div > div > div > label {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+input:focus {
+    border-color: blue;
+    outline: none;
+    border-radius: 5px;
+}
+
+input:invalid {
+    border-color: red;
+    outline: none;
+}
+
+.btn-and-text {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    font-size: 15px;
+    font-weight: bolder;
+    border-style: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.btn-and-text > div {
+    padding-top: 30px;
+}
+
+.btn-and-text > div > a {
+    color: green
+}
